@@ -1,0 +1,42 @@
+name: todo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.1       
+  hive_flutter: ^1.1.0   
+  confetti: ^0.7.0       
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+# --- إعدادات الأيقونة ---
+flutter_launcher_icons: # تم تغيير الاسم هنا لإزالة التحذير
+  android: true
+  ios: true
+  remove_alpha_ios: true # تمت إضافته لإزالة تحذير شركة أبل
+  image_path: "assets/icon.png"
+
+# --- إعدادات شاشة البداية (Splash Screen) ---
+flutter_native_splash:
+  color: "#303F9F"
+  image: "assets/splash.png"
+  android: true 
+  android_12: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/avatars/
