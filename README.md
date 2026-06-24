@@ -47,13 +47,6 @@
 
 ---
 
-### Live Demo
-
-Try out the web version directly from your browser:
-**[Play with Gamified To-Do App Here](https://gamified-todo-app-flutter.netlify.app/)**
-
----
-
 ### How to Run the Project
 
 1. Clone the repository:
